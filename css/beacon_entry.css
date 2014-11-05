@@ -1,0 +1,213 @@
+/* Custom Rules for OLE App */
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.fullWidth {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#detailTopBeacon {
+  text-align: center;
+}
+
+#detailTopBeacon p {
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+#detailBottomBeacon p {
+  margin: 0 auto;
+  color: #79726c;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+#detailTopBeacon h1 {
+  color: #c0cc2f;
+  font-family: 'GraphicusDT-Demi', arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 27px 0 0;
+  padding: 0 0 8px;
+}
+
+.descriptionBeacon {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* =Reset
+----------------------------------------------------*/
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  line-height: 1.0;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  border: 0;
+  vertical-align: bottom;
+}
+
+:focus {
+  outline: 0;
+}
+
+
+/* =Horizontal Rule
+----------------------------------------------------*/
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  clear: both;
+  display: block;
+  margin: 20px auto 0px auto;
+  /* Removed margin-bottom:40px; */
+  width: 980px;
+}
+
+.shadowed {
+  background: url(../img/global/shadow.png) 0 100% repeat-x;
+  /* Removed margin-top:40px; */
+  padding-bottom: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* =Layout
+----------------------------------------------------*/
+
+/* ----- Section ----- */
+
+body {
+  width: 100%;
+}
+
+section,
+.inner {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 100%;
+}
+
+.inner {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+section.inner {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* =Typography
+----------------------------------------------------*/
+
+/* =Graphicus & Skippy Sharp Custom Fonts
+----------------------------------------------------*/
+
+/* @license
+ * MyFonts Webfont Build ID 2525273, 2013-04-09T09:48:32-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Graphicus DT Demi by DTP Types
+ * URL: http://www.myfonts.com/fonts/dtptypes/graphicus-dt/demi/
+ * Copyright: Copyright (c) 1996-2006 DTP Types Limited. All rights reserved. GraphicusDT is a trademark of DTP Types Limited.
+ * 
+ * Webfont: Graphicus DT Regular by DTP Types
+ * URL: http://www.myfonts.com/fonts/dtptypes/graphicus-dt/regular/
+ * Copyright: Copyright (c) 1996-2006 DTP Types Limited. All rights reserved. GraphicusDT is a trademark of DTP Types Limited.
+ * 
+ * Webfont: Graphicus DT Bold by DTP Types
+ * URL: http://www.myfonts.com/fonts/dtptypes/graphicus-dt/bold/
+ * Copyright: Copyright (c) 1996-2006 DTP Types Limited. All rights reserved. GraphicusDT is a trademark of DTP Types Limited.
+ * 
+ * Webfont: Skippy Sharp by Chank
+ * URL: http://www.myfonts.com/fonts/chank/skippy-sharp/skippy-sharp/
+ * Copyright: Copyright (c) Chank Co, 2006. All rights reserved. Do not redistribute or alter this font without permission.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2525273
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+/*@import ~"url(//hello.myfonts.net/count/268859)";*/
+
+@font-face {
+  font-family: 'GraphicusDT-Demi';
+  src: url('../fonts/GraphicusDT-Demi.eot');
+  src: url('../fonts/GraphicusDT-Demi.eot?') format('embedded-opentype'), url('../fonts/GraphicusDT-Demi.woff') format('woff'), url('../fonts/GraphicusDT-Demi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GraphicusDT-Regular';
+  src: url('../fonts/GraphicusDT-Regular.eot');
+  src: url('../fonts/GraphicusDT-Regular.eot?') format('embedded-opentype'), url('../fonts/GraphicusDT-Regular.woff') format('woff'), url('../fonts/GraphicusDT-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'GraphicusDT-Bold';
+  src: url('../fonts/GraphicusDT-Bold.eot');
+  src: url('../fonts/GraphicusDT-Bold.eot?') format('embedded-opentype'), url('../fonts/GraphicusDT-Bold.woff') format('woff'), url('../fonts/GraphicusDT-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'SkippySharp';
+  src: url('../fonts/SkippySharp.eot');
+  src: url('../fonts/SkippySharp.eot?') format('embedded-opentype'), url('../fonts/SkippySharp.woff') format('woff'), url('../fonts/SkippySharp.ttf') format('truetype');
+}
+
+/* ----- Base ----- */
+
+html {
+  font-size: 12px;
+}
+
+body {
+  color: #999999;
+  /* Changed Body Color */
+  font-family: 'GraphicusDT-Regular', arial, sans-serif;
+  font-size: 12px;
+}
+
+/* =Icons
+----------------------------------------------------*/
+
+@font-face {
+  font-family: 'nhm-icons';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/nhm-icons.eot');
+  src: url('../fonts/nhm-icons.eot?') format('embedded-opentype'), url('../fonts/nhm-icons.woff') format('woff'), url('../fonts/nhm-icons.ttf') format('truetype');
+}
+
+
